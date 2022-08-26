@@ -63,7 +63,7 @@ ROOT_URLCONF = 'todo_list.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(BASE_DIR,'base.apps.BaseConfig', 'templates')],
+        'DIRS': [os.path.join(BASE_DIR,'base', 'templates')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
